@@ -10,7 +10,9 @@ class Shoe
   
   def cobble
     if @condition == "old"
+      return
+      @conditon = "new"
       puts "Your shoe is as good as new!"
-      conditon = "new"
   end
+end
 end
