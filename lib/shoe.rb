@@ -11,6 +11,6 @@ class Shoe
   def cobble
     
       puts "Your shoe is as good as new!"
-  
+    return @condition = "new" if @condition == "old"
 end
 end
